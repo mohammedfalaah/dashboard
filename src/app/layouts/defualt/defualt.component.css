@@ -1,0 +1,22 @@
+mat-drawer-container{
+    height: 85%;
+}
+
+mat-drawer{
+    width: 250px;
+}
+mat-drawer-content{
+    padding: 10px;
+}
+mat-drawer{
+    width: 250pxx;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+mat-drawer::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+

@@ -1,0 +1,21 @@
+<!-- header -->
+<app-header (sideBarToggle)="toggle()" ></app-header>
+
+
+<!-- side navbar -->
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" [opened]="sidebar">
+<!-- sidebar -->
+<app-sidebar></app-sidebar>
+</mat-drawer>
+    <mat-drawer-content>
+ <!--router-outlet - router-outlet selector - to redirect to diffrent page as per user request-->
+<router-outlet></router-outlet>    
+    </mat-drawer-content>
+  </mat-drawer-container>
+  
+<!-- divider -->
+<mat-divider></mat-divider>
+<!-- footerwork -->
+<app-footer></app-footer>
+
